@@ -1,0 +1,79 @@
+body{
+    background: #98c5e9;
+}
+
+.text-city{
+    color: #00285e !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-city{
+    background-color: #98c5e9;
+    color: black;
+}
+.btn-city:hover{
+    background-color: #88afcf;
+}
+
+.btn-city-blue{
+    background-color: #00285e;
+    color: white;
+}
+.btn-city-blue:hover{
+    background-color: #203d63;
+    color: white;
+}
+
+
+/* cambiar el color de fondo a la barra */
+
+#header img{
+    width: 80px;
+}
+
+/* #header a{
+    color: #00285e;
+} */
+
+#main .carousel-inner img {
+    max-height: 80vh;
+    object-fit: cover;
+    filter: grayscale(50%);
+}
+
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+}
+
+#carousel .overlay .container, 
+#carousel .overlay .row {
+    height: 100%;
+}
+
+#stadium{
+    background-color: white;
+    color: #00285e;
+}
+
+#stadium img{
+    max-width: 100%;
+}
+
+#footer{
+    background: #00285e
+    ;
+}
+
+#footer a{
+    color: white;
+}
